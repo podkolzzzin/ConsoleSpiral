@@ -1,37 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NConsoleGraphics {
 
   public class ConsoleGraphics {
-
-    [DllImport("user32.dll")]
-    private static extern IntPtr GetForegroundWindow();
-
-    [DllImport("user32.dll")]
-    private static extern IntPtr GetDC(IntPtr hWnd);
-
-    [DllImport("user32.dll")]
-    private static extern bool GetClientRect(IntPtr hWnd, out RECT lpRect);
 
     private Graphics graphics;
     private IntPtr hWnd;
 
     public ConsoleGraphics() {
 
-      hWnd = GetForegroundWindow();
-      graphics = Graphics.FromHdc(GetDC(hWnd));
+      hWnd = NativeMethods.GetForegroundWindow();
+      graphics = Graphics.FromHdc(NativeMethods.GetDC(hWnd));
     }
 
     public int ClientWidth {
       get {
         RECT rect;
-        GetClientRect(hWnd, out rect);
+        NativeMethods.GetClientRect(hWnd, out rect);
         return rect.Width;
       }
     }
@@ -39,15 +26,42 @@ namespace NConsoleGraphics {
     public int ClientHeight {
       get {
         RECT rect;
-        GetClientRect(hWnd, out rect);
+        NativeMethods.GetClientRect(hWnd, out rect);
         return rect.Height;
       }
     }
 
+    public ConsoleImage LoadImage(string bmpFileName) {
+
+      return new ConsoleImage(bmpFileName);
+    }
+
     public void DrawLine(uint color, int x1, int y1, int x2, int y2, float thickness = 1f) {
 
-      Pen pen = new Pen(ToColor(color), thickness);
-      graphics.DrawLine(pen, x1, y1, x2, y2);
+      using (Pen pen = new Pen(ToColor(color), thickness))
+        graphics.DrawLine(pen, x1, y1, x2, y2);
+    }
+
+    public void DrawRectangle(uint color, int x, int y, int w, int h, float thickness = 1f) {
+
+      using (Pen pen = new Pen(ToColor(color), thickness))
+        graphics.DrawRectangle(pen, x, y, w, h);
+    }
+
+    public void DrawImage(ConsoleImage img, int x, int y) {
+
+      graphics.DrawImage(img.Image, x, y);
+    }
+
+    public void DrawImagePart(ConsoleImage img, int offsetX, int offsetY, int width, int height, int x, int y) {
+
+      graphics.DrawImage(img.Image, new Rectangle(x, y, width, height), new Rectangle(offsetX, offsetY, width, height), GraphicsUnit.Pixel);
+    }
+
+    public void FillRectangle(uint color, int x,  int y, int w, int h) {
+
+      using (Brush brush = new SolidBrush(ToColor(color)))
+        graphics.FillRectangle(brush, x, y, w, h);
     }
 
     private Color ToColor(uint argb) {

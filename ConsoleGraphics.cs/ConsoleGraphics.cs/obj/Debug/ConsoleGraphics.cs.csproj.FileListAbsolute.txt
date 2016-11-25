@@ -1,0 +1,6 @@
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.pdb
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.csprojResolveAssemblyReference.cache
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.pdb
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll.config
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll
+D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.dll
