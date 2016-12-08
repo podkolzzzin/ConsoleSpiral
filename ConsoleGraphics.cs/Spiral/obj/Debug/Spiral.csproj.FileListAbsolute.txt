@@ -6,3 +6,11 @@ D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\Conso
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.csprojResolveAssemblyReference.cache
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.exe
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.pdb
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\bin\Debug\Spiral.exe.config
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\bin\Debug\Spiral.exe
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\bin\Debug\Spiral.pdb
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\bin\Debug\ConsoleGraphics.cs.dll
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\bin\Debug\ConsoleGraphics.cs.pdb
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.csprojResolveAssemblyReference.cache
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.exe
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\Spiral\obj\Debug\Spiral.pdb

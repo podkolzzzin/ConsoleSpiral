@@ -64,6 +64,13 @@ namespace NConsoleGraphics {
         graphics.FillRectangle(brush, x, y, w, h);
     }
 
+    public void DrawString(string s, string fontName, uint color, int x, int y, float emSize = 16f) {
+
+      using (Font font = new Font(fontName, emSize))
+      using (Brush brush = new SolidBrush(ToColor(color)))
+        graphics.DrawString(s, font, brush, x, y);
+    }
+
     private Color ToColor(uint argb) {
 
       return Color.FromArgb((byte)((argb & -16777216) >> 0x18),

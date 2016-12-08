@@ -4,3 +4,9 @@ D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\Conso
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll.config
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll
 D:\Projects\Stable\DbForge\Common\Src\LanguageService\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.dll
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll.config
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.dll
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\bin\Debug\ConsoleGraphics.cs.pdb
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.csprojResolveAssemblyReference.cache
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.dll
+C:\Users\AndreyPod\Saved Games\Downloads\ConsoleSpiral-master\ConsoleGraphics.cs\ConsoleGraphics.cs\obj\Debug\ConsoleGraphics.cs.pdb
